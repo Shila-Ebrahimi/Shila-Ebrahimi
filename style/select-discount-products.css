@@ -1,0 +1,128 @@
+div.select-discount-products {
+  width: 94%;
+  height: 820px;
+  margin: 20px auto;
+  /* background-color: rgb(204, 179, 147); */
+  border: 1px solid var(--boxcolor);
+  border-radius: 20px;
+ 
+
+  div.title-text-product {
+    width: 100%;
+    height: 10%;
+    font-family: Iranyekan;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    /* background-color: blue; */
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+    h3 {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  div.select-discount-product-child {
+    width: 98%;
+    height: calc(89% / 3);
+    /* background-color: teal; */
+    margin: 2px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    gap: 0;
+    div.select-discount-product-in-child {
+      width: calc(100% / 6);
+      height: 100%;
+      border-bottom: 1px solid var(--boxcolor);
+      /* background-color: yellow; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column nowrap;
+      gap: 5px;
+      padding: 10px;
+      box-sizing: border-box;
+      &.borderleft{
+      border-left: 1px solid var(--boxcolor);
+
+
+      }
+
+    
+
+      div.select-img {
+        width: 100%;
+        height: 80%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row nowrap;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+      div.select-text {
+        width: 100%;
+        height: 10%;
+        /* background-color: darkcyan; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-flow: row nowrap;
+        gap: 2px;
+        font-family: Iranyekan;
+
+        p:nth-child(2) {
+          width: fit-content;
+          height: 100%;
+          /* background-color: royalblue; */
+          color: rgb(24, 24, 24);
+        }
+
+        p:nth-child(1) {
+          width: fit-content;
+          height: 100%;
+          background-color: crimson;
+          padding: 2px 8px;
+          box-sizing: border-box;
+          border-radius: 35px;
+          font-family: Iranyekan;
+          font-size: 10px;
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+        }
+      }
+
+      div.select-discount-number {
+        width: 100%;
+        height: 10%;
+        /* background-color: hotpink; */
+        font-family: Iranyekan;
+        font-size: 13px;
+        color: gray;
+        text-decoration: line-through;
+        text-align: left;
+        margin-left: 17px;
+      }
+    }
+  }
+}
+
+.title-text-product h3,
+.title-text-product svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+  gap: 10px;
+}

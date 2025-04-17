@@ -1,0 +1,157 @@
+div.mainsuper-market-amazing {
+  width: 100%;
+  height: 110px;
+  /* background-color: rgb(195, 66, 66); */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  div.super-market-amazing {
+    width: 94%;
+    height: 100%;
+    background-color: #ebeeed;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    div.leftmarket {
+      width: 55%;
+      height: 100%;
+      /* background-color: purple; */
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: end;
+      margin-left: 40px;
+      gap: 10px;
+
+      .itemmarket {
+        width: 90px;
+        height: 100%;
+        /* background-color: aqua; */
+        position: relative;
+
+        .imageT {
+          img {
+            width: 100%;
+            height: 90px;
+            border-radius: 50%;
+            /* background-color: red; */
+            padding: 5px;
+            box-sizing: border-box;
+          }
+
+          /* div.image-text{
+            width: 100%;
+            height: auto;
+            background-color: #029a49;
+            font-size: 12px;
+            font-family: Iranyekan;
+            font-weight: bold;
+            text-decoration: none;
+
+          } */
+        }
+      }
+    }
+
+    div.rightmarket {
+      width: 45%;
+      height: 100%;
+      /* background-color: rgb(43, 220, 20); */
+      display: flex;
+      flex-flow: row nowrap;
+      cursor: pointer;
+
+      justify-content: start;
+      gap: 20px;
+      align-items: center;
+
+      div.redicon {
+        margin-right: 20px;
+      }
+      div.shegeft {
+        margin-right: 20px;
+      }
+      div.discount-text {
+        margin-right: 20px;
+        width: fit-content;
+        background-color: #029a49;
+        border-radius: 20px;
+        font-family: Iranyekan;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 2.15;
+        color: var(--textcolor);
+        padding: 5px;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
+
+div > a > .image-text {
+  width: fit-content;
+  border-radius: 8px;
+  background-color: #d32f2f;
+  color: var(--textcolor);
+  font-size: 14px;
+  font-family: Iranyekan;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  top: 58%;
+  right: 4%;
+}
+
+div.more2000 {
+  /* background-color: aqua; */
+  width: 150px;
+  height:100px;
+  display: flex;
+  flex-flow: row  nowrap;
+  align-items: center;
+  justify-content:center;
+  p.more200{
+    display: flex;
+    flex-flow: row  nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 145px;
+    height: 53px;
+    background-color: #FFFFFF;
+    color: #22A760;
+    border-radius: 20px;
+    font-family:Iranyekan;
+    font-weight: bold;
+   
+
+
+    
+  svg{
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background-color:#209255;
+    border-radius: 50%;
+    /* color: #209255; */
+    
+    
+    }
+    
+    
+
+    
+  }
+
+
+  
+}
+
+a{
+  text-decoration: none
+  
+}

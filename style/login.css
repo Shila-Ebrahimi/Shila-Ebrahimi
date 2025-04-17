@@ -1,0 +1,163 @@
+
+
+div.log{
+    width: 400px;
+    height: 482px;
+    display: block;
+    margin: 124px auto;
+    border-radius:7px;
+    box-sizing: border-box;
+    padding: 0px 28px ;
+    box-shadow: 0 0 4px    #c1c1c2;
+    .icon{
+      width: 29%;
+      align-items: center;
+      box-sizing: border-box;
+      padding: 9px 0;
+      margin: 0 auto;
+      display: flex;
+    }
+  
+    .vorod,.sabt{
+      font-family: Iranyekan;
+      font-weight: 700;
+      display: inline-block;
+      line-height: 2.1;
+      color: #0c0c0c;
+      text-align: right;
+      margin-top: 16px;
+  
+      text-shadow: none;
+      font-size: 1rem;
+      font-family: iranyekan;
+      margin-bottom: 10px;
+   }
+  
+   .vorod{
+    border-left: 2px solid rgb(41, 40, 40);
+    padding-left: 7px;
+    height: 1.3rem;
+    font-family: Iranyekan;
+  
+    
+  
+  
+  
+    
+   }
+   .sabt{
+    padding-right: 7px;
+   }
+  
+  
+  
+  }
+  
+  .p1{
+    font-size:12px;
+    font-weight: 400;
+    line-height: 2;
+    color: #3f4064;
+    font-family: Iranyekan;
+  
+  
+  }
+  
+  
+  
+  .p{
+    /* margin-top: 10px; */
+  
+  }
+  
+  
+  div>form{
+  
+    padding-top: 15px;
+  }
+  
+  .input{
+  
+    width: 334px;
+    height: 47px;
+    border-radius: 10px;
+    border: 1px solid #00cccc;
+  
+   
+    padding-right: 15px;
+    font-size: 15px;
+    color: #585858;
+    padding-bottom: 7px;
+    box-sizing: border-box;
+  
+    &:hover{
+      
+  
+    /* border: 1px solid crimson; */
+   }
+   &:focus{
+    outline: none;
+    border: 1px solid crimson;
+  
+   }
+  }
+  
+  
+  
+  .pp{
+    display: block;
+    color: #b2001a;
+    font-family: Iranyekan;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 2.17;
+  
+    box-sizing: border-box;
+    transition: 200ms;
+    opacity: 0;
+    
+      outline: none;
+      margin: 0;
+      padding: 0;
+  
+  
+  }
+  .input:focus + .pp{
+    opacity: 1;
+  }
+  
+  
+  .submit{
+  
+    width: 334px;
+    height: 47px;
+    text-shadow: none;
+    cursor: pointer;
+    border: none;
+    background-color: #EF4056;
+    margin-top: 35px;
+    border-radius: 10px;
+    color: white;
+    font-family: Iranyekan;
+    font-weight: 400;
+  
+  }
+  
+  
+  
+  
+  .footer{
+  
+    font-size: 11px;
+    font-family: Iranyekan;
+    direction: rtl;
+    margin-top: 22px;
+    a{
+      text-decoration: none;
+      color:#008eb5 ;
+    }
+    p {
+      color: #585858;
+    }
+  
+  }

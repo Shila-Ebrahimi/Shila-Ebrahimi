@@ -1,0 +1,117 @@
+div.amazing {
+  width: 100%;
+  height: 345px;
+  /* background-color: purple; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .childamazing {
+    height: 100%;
+    width: 94%;
+    /* margin: 0px auto; */
+    background-color: rgb(221, 49, 78);
+    border-radius: 20px;
+    padding: 20px 20px 20px 0;
+    box-sizing: border-box;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  &.slide-first{
+    border-radius: 0 10px 10px 0;
+  }
+  &.slide-end{
+    border-radius:  10px 0px 0 10px;
+  }
+  .image {
+    img {
+      width: 90%;
+      height: 100%;
+      /* display: flex;
+            align-items: center;
+            justify-content: center; */
+    }
+  }
+
+  .text {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Iranyekan;
+    font-size: 11px;
+    color: rgb(100, 99, 99);
+    text-align: right;
+  }
+  .newprice {
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    box-sizing: border-box;
+
+    .discount {
+      background-color: crimson;
+      padding: 2px 8px;
+      box-sizing: border-box;
+      border-radius: 35px;
+      font-family: Iranyekan;
+      font-size: 14.5px;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+    }
+    .price {
+      font-family: Iranyekan;
+      font-size: 13px;
+      color: rgb(24, 23, 23);
+      font-weight: bold;
+    }
+  }
+  .oldprice {
+    width: 100%;
+    display: flex;
+    /* justify-content: ; */
+    font-family: Iranyekan;
+    font-size: 13px;
+    color: gray;
+    text-decoration: line-through;
+    justify-content: end;
+    margin-left: 17px;
+  }
+  &.khas {
+    background-color: transparent;
+    .more {
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-family: Iranyekan;
+      }
+    }
+  }
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

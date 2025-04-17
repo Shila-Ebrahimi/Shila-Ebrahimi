@@ -1,0 +1,44 @@
+.mainstory {
+  width: 94%;
+  height: 175px;
+  margin: 20px auto;
+  /* background-color: aqua; */
+  .swiper-slide-mainstory {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    gap: 10px;
+    img {
+      outline: 2px solid purple;
+      outline-offset: 3px;
+      border-radius: 50%;
+    }
+    p {
+      font-size: 12px;
+      font-family: Iranyekan;
+    }
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,29 @@
+div.poster1{
+    width: 94%;
+    height: 260px;
+    margin: 20px  auto;
+
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    gap: 20px;
+    .image1-poster1,.image2-poster1{
+        width: 50%;
+        height: 100%;
+        /* background-color: teal; */
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 18px;
+        
+                object-fit: cover;  
+            
+        }
+
+
+    }
+
+
+}

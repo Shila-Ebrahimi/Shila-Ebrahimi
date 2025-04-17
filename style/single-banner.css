@@ -1,0 +1,12 @@
+div.single-banner {
+  width: 94%;
+  height: 169px;
+  margin: 0px auto;
+  /* background-color: aqua; */
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+}

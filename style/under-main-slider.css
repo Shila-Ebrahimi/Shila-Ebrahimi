@@ -1,0 +1,50 @@
+div.under-main-slider{
+    width: 94%;
+    height: 150px;
+    /* background-color: lightblue; */
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-flow: row nowrap;
+    padding: 10px;
+    box-sizing: border-box;
+    .under-main-slider-child{
+        width: calc(100% / 10);
+        height: 100%;
+        /* background-color: darksalmon; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column nowrap;
+        a{
+            width: 80%;
+            height: 80%;
+            /* background-color: fuchsia; */
+            padding: 20px;
+            box-sizing: border-box;
+
+            img{
+                width: 100%;
+                height: 100%;
+                /* background-color: red; */
+                object-fit: contain;
+    
+            }
+         
+        }
+       
+        p{
+            width: 80%;
+            height: 20%;
+            /* background-color: darkgoldenrod; */
+            font-family: Iranyekan;
+            font-size: 10px;
+            color: #585E73;
+            text-align: center;
+        }
+
+    }
+
+}

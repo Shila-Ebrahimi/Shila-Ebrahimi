@@ -1,0 +1,142 @@
+div.best-selling-prpducts {
+  margin: 0px auto;
+  width: 94%;
+  height: 440px;
+  /* background-color: aqua; */
+  border-radius: 20px;
+  border: 1px solid var(--boxcolor);
+  .title-best-selling-prpducts {
+    width: 100%;
+    height: 60px;
+    /* background-color: crimson; */
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    font-family: Iranyekan;
+
+    h4 {
+      width: 90%;
+      height: 100%;
+      /* background-color: gold; */
+      font-size: 20px;
+      padding-right:50px ;
+      box-sizing: border-box;
+      svg {
+        width: 20px;
+        height: 20px;
+        /* background-color: darkblue; */
+      }
+    }
+    a {
+      width: 10%;
+      height: 100%;
+      color: var(--text-bold-blue);
+      /* background-color: greenyellow; */
+    }
+  }
+
+  div.slider-best-selling-prpducts {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    div.div-products-1 {
+      width: 100%;
+      height: 120px;
+      /* background-color: orangered; */
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+      .img-product {
+        width: 40%;
+        height: 100%;
+        object-fit: contain;
+        /* background-color: dodgerblue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 80%;
+          height: 95%;
+        }
+      }
+      .text-number-blue-bold {
+        width: 10%;
+        height: 100%;
+        font-family: Iranyekan;
+        font-size: 35px;
+        /* font-weight: 800; */
+        /* background-color: rgb(255, 30, 214); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+          color: var(--text-bold-blue);
+        }
+      }
+      .text-product {
+        width: 50%;
+        height: 100%;
+        border-bottom: 1px solid var(--boxcolor);
+        font-family: Iranyekan;
+        font-size: 12px;
+        text-align: center;
+        /* background-color: lightcoral; */
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        a {
+          /* cursor: pointer; */
+          color: var(--color-neutral);
+        }
+      }
+    }
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+
+
+
+.title-best-selling-prpducts h4 , .title-best-selling-prpducts a{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    font-size: 20px;
+    svg {
+      width: 45px;
+      height: 45px;
+    }
+  }
+ 

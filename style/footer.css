@@ -1,0 +1,434 @@
+div.main-footer {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid var(--boxcolor);
+  margin-top: 20px;
+  box-sizing: border-box;
+  .icon-footer-and-lable-jump {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    svg {
+      width: 12%;
+      height: 100%;
+    }
+    .lable-jump {
+      width: 8%;
+      height: 100%;
+      font-family: Iranyekan;
+      font-size: 12px;
+      color: rgb(138, 136, 136);
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: 1px solid var(--boxcolor);
+      cursor: pointer;
+      transition: 800ms;
+    }
+  }
+
+  .paragh-footer {
+    width: 100%;
+    height: 36px;
+    font-size: 12px;
+    font-family: iranyekan;
+    color: #454064;
+    display: flex;
+    align-items: start;
+    gap: 6px;
+    padding: 5.5px;
+    box-sizing: border-box;
+    p {
+      width: fit-content;
+      height: 80%;
+      padding: 10px;
+      box-sizing: border-box;
+      &:nth-child(1),
+      &:nth-child(2) {
+        border-left: 1px solid #454064;
+      }
+    }
+  }
+
+  .icon-footer-5 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    gap: 10px;
+    .icon-text-footer {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
+      a {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+          width: 70%;
+          height: 70%;
+          object-fit: contain;
+        }
+      }
+
+      p {
+        font-family: Iranyekan;
+        font-size: 11px;
+        color: #454064;
+        width: 70%;
+        height: 20%;
+        text-align: center;
+      }
+    }
+  }
+
+  div.part-4-of-footer-digikala {
+    width: 100%;
+    height: 345px;
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    .part-4-of-footer-digikala-child {
+      width: 25%;
+      height: 100%;
+      font-family: Iranyekan;
+      font-size: 17px;
+      padding: 5px;
+      box-sizing: border-box;
+      ul {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: start;
+        list-style: none;
+        flex-flow: column nowrap;
+        gap: 15px;
+        :nth-child(1) {
+          color: #3f4069;
+        }
+
+        li {
+          width: 100%;
+          height: 100%;
+          text-decoration: none;
+          color: #81858b;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .part-4-4-of-footer-digikala-child {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex-flow: column nowrap;
+      gap: 5px;
+      cursor: pointer;
+
+      div {
+        width: 100%;
+        height: 25%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-flow: row nowrap;
+
+        p {
+          font-size: 17px;
+          font-family: Iranyekan;
+          color: #3f4069;
+          cursor: pointer;
+        }
+
+        svg {
+          width: 30px;
+          height: 30px;
+          margin: 10px;
+          cursor: pointer;
+        }
+        .form-emali {
+          width: 100%;
+          height: 100%;
+          &:nth-child(1) {
+            width: 80%;
+            height: 100%;
+            border-radius: 20px;
+          }
+        }
+        #email {
+          width: 260px;
+          height: 50px;
+          border-radius: 10px;
+          background-color: rgb(233, 228, 228);
+          border: none;
+          padding-right: 10px;
+          box-sizing: border-box;
+          font-family: IranYekan;
+          font-size: 15px;
+          &:focus {
+            outline: none;
+            font-size: 15px;
+          }
+        }
+      }
+      #submit {
+        width: 60px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        font-family: IranYekan;
+        color: gray;
+      }
+      #email:invalid ~ #submit {
+        background-color: rgb(173, 172, 173);
+        color: white;
+      }
+    }
+  }
+
+  .baner-footer {
+    width: 94%;
+    height: 90px;
+    margin: 0px auto;
+    border-radius: 15px;
+    background-color: #3c4b6d;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    :nth-child(1) {
+      cursor: pointer;
+      width: 30%;
+      height: 100%;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      flex-flow: row nowrap;
+      p {
+        width: fit-content;
+        height: 100%;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: Iranyekan;
+        color: white;
+      }
+      img {
+        width: 20%;
+        height: 80%;
+        object-fit: contain;
+      }
+    }
+    :nth-child(2) {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: row nowrap;
+      gap: 15px;
+      cursor: pointer;
+      :last-child {
+        background-color: white;
+        width: 10%;
+        height: 65%;
+        border-radius: 15px;
+      }
+      img {
+        width: 25%;
+        height: 100%;
+        border-radius: 25px;
+        object-fit: contain;
+      }
+    }
+  }
+
+  div.part-7-of-footer-digikala {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    font-family: Iranyekan;
+    font-size: 11px;
+    color: rgb(143, 142, 142);
+    padding: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid lightgray;
+    p {
+      width: fit-content;
+      height: fit-content;
+    }
+  }
+
+  div.part-8-of-footer-digikala {
+    width: 100%;
+    height: 180px;
+    background-color: rgb(233, 230, 230);
+    display: flex;
+    flex-flow: column nowrap;
+    .part-1-of-part8 {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: center;
+      div.pa {
+        width: calc(100% / 7);
+        height: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+        border: 1px solid rgb(204, 203, 203);
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: fill;
+        }
+      }
+    }
+    .part-2-of-part8 {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: center;
+      div.paa {
+        width: calc(100% / 6);
+        height: 100%;
+        /* background-color: darkorange; */
+        padding: 30px;
+        box-sizing: border-box;
+        border: 1px solid rgb(204, 203, 203);
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .part-6-of-footer-digikala {
+    width: 100%;
+    height: auto;
+    /* height: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+    border-top: 1px solid var(--boxcolor);
+    padding: 20px;
+    box-sizing: border-box;
+    .check-box-text {
+      width: 60%;
+      height: 90%;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: start;
+      justify-content: start;
+
+      .toggle-content {
+        /* max-height: 100px; */
+        height: 120px;
+        overflow: hidden;
+        transition: max-height 0.5s ease;
+        font-family: IranYekan;
+        color: rgb(73, 71, 71);
+        p:first-child {
+          font-size: 20px;
+          color: black;
+          margin-bottom: 10px;
+        }
+        p:last-child {
+          font-size: 14px;
+          color: #2b2b2b;
+        }
+
+        position: relative;
+      }
+
+      input[type="checkbox"] {
+        display: none;
+      }
+
+      .toggle-label {
+        color: rgb(6, 114, 156);
+        cursor: pointer;
+        display: inline-block;
+        margin-top: 10px;
+        font-family: IranYekan;
+      }
+
+      input[type="checkbox"]:checked ~ .toggle-content {
+        max-height: 1000px;
+      }
+
+      input[type="radio"] {
+        display: none;
+      }
+      #toggle-more:checked ~ .toggle-content {
+        height: auto;
+      }
+      #toggle-more:checked ~ .show-more {
+        display: none;
+      }
+      #toggle-more:checked ~ .show-less {
+        display: block;
+      }
+      #toggle-less:checked ~ .toggle-content {
+        height: 120px;
+      }
+      #toggle-less:checked ~ .show-less {
+        display: none;
+      }
+      .show-less {
+        display: none;
+      }
+    }
+
+    .part-6-of-footer-image {
+      width: 40%;
+      height: 70%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      gap: 15px;
+      padding: 20px;
+      box-sizing: border-box;
+      a {
+        width: calc(100% / 4);
+        height: 90%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid var(--boxcolor);
+        border-radius: 15px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
